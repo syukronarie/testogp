@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Layout</title>
+		<style>
+			header {
+				height: 80px;
+				background-color: #ffc1c0;
+			}
+
+			nav {
+				height: 80px;
+				background-color: #b9f5fe;
+			}
+
+			main {
+				display: flex;
+				flex-direction: row;
+				height: 200px;
+			}
+
+			section {
+				width: 70%;
+				background-color: #f9ffe8;
+			}
+
+			.article-head {
+				height: auto;
+				background-color: #ffc1c0;
+			}
+
+			article {
+				height: 82%;
+				background-color: #e3d5f6;
+			}
+
+			aside {
+				width: 30%;
+				height: auto;
+				background-color: #e9e9e9;
+			}
+
+			footer {
+				height: 80px;
+				background-color: #fddab9;
+			}
+		</style>
+	</head>
+	<body>
+		<header>Header</header>
+
+		<nav>Navbar / Navigation</nav>
+
+		<main>
+			<section>
+				Section
+				<div class="article-head">Head</div>
+
+				<article>Article</article>
+			</section>
+			<aside>Aside</aside>
+		</main>
+
+		<footer>Footer</footer>
+	</body>
+</html>
